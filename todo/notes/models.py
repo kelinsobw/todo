@@ -1,5 +1,5 @@
-
 from django.db import models
+from threading import current_thread
 
 
 class Note(models.Model):
